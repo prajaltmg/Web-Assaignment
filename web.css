@@ -1,0 +1,29 @@
+nav{ padding-bottom: 50px; margin-top:-10px; width:1370px; 
+	margin-left:-8px; background-image:url(new.jpg);
+}
+nav ul{margin-top:-55px;}
+nav ul li{
+	list-style:none; float:right;margin:0.5%; padding:1%;   
+    border-radius:15px 15px 15px 15px
+}
+
+nav ul li a{text-decoration: none; display:block; width:100%; color:#FBF7D5;}
+
+.g1{
+ 
+	 font-size:50px; color:#FBF7D5;
+}
+body{
+	
+	background-image:url(new.jpg)
+
+}
+.g2{ font-size:55px; color:#FBF7D5; 
+} 
+.g3{ font-size:55px; color:#FBF7D5;  
+}
+.g4{; font-size:55px; color:#FBF7D5;  }
+header{
+	padding:170px;
+
+}
