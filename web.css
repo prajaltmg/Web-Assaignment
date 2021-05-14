@@ -18,12 +18,35 @@ body{
 	background-image:url(new.jpg)
 
 }
-.g2{ font-size:55px; color:#FBF7D5; 
+.g2{ font-size:70px; color:#FBF7D5; 
 } 
-.g3{ font-size:55px; color:#FBF7D5;  
+.g3{ font-size:70px; color:#FBF7D5;  
 }
-.g4{; font-size:55px; color:#FBF7D5;  }
+.g4{; font-size:70px; color:#FBF7D5;  }
 header{
-	padding:170px;
+	margin-top:170px;
+	margin-left:300px;
+}
+
+/*Below code belongs to contact.html*/
+form{
+	width:500px;
+	color:#FBF7D5;
+	margin-left:700px;
+	margin-top:-485px;
+	
+}
+.r1{
+	color:#FBF7D5;
+	font-size:30px;
+
+}
+.r2{
+	color:#FBF7D5;
+}
+section{
+	width:400px;
+	margin-left:250px;
+	margin-top:20px
 
 }
