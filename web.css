@@ -1,5 +1,5 @@
 nav{ padding-bottom: 50px; margin-top:-10px; width:1370px; 
-	margin-left:-8px; background-image:url(new.jpg);
+	margin-left:-8px; background-color:#990011FF;
 }
 nav ul{margin-top:-55px;}
 nav ul li{
@@ -16,56 +16,63 @@ nav ul li a{
 
 .g1{
  
-	 font-size:50px; color:#FBF7D5;
+	font-size:50px; color:#FBF7D5;
 }
 body{
 	
-	background-image:url(new.jpg)
+	background-color:#101820FF;
 
 }
-.g2{ font-size:70px; color:#FBF7D5; 
+.g2{ font-size:70px; color:#990011FF; 
 } 
 .g3{ font-size:70px; color:#FBF7D5;  
 }
-.g4{; font-size:70px; color:#FBF7D5;  }
+.g4{ font-size:70px; color:#990011FF; 
+}
+.g5{ font-size:70px; color:#FBF7D5;
+}
 header{
-	margin-top:170px;
-	margin-left:300px;
+	margin-top:130px;
+	margin-left:130px;
 }
 /*Below code belongs to portfolio.html*/
 
 .j1{
-	background-image: url(itachi.JPG);
+	background-image: url(sun.JPG);
 	background-size:100%;
 	width:350px;
 	height:250px;
 }
 .j2{
-	background-image: url(ghost.JPG);
+	background-image: url(scene.JPG);
 	background-size:100%;
 	width:350px;
 	height:250px;
 }
 .j3{
-	background-image: url(untitled.PNG);
+	text-align:center;
+	font-size:20px;
+	color:#FBF7D5;
 	background-size: 122%;
 	width:350px;
 	height:250px;
 }
 .j4{
-    background-image: url(sun.JPG);
+    background-image: url(itachi.JPG);
 	background-size:100%;
 	width:350px;
 	height:250px;
 }
 .j5{
-	 background-image: url(scene.JPG);
+	background-image: url(ghost.JPG);
 	background-size:100%;
 	width:350px;
 	height:250px;
 }
 .j6{
-	 background-image: url(set.JPG);
+	text-align:center;
+	font-size:20px;
+	color:#FBF7D5;
 	background-size:100%;
 	width:350px;
 	height:250px;
@@ -77,14 +84,49 @@ header{
 	margin-left:100px;
 }
 
-/*Below code belongs to contact.html*/
-form{
-	width:500px;
+/*Below code belongs to cv.html*/
+u{
 	color:#FBF7D5;
-	margin-left:700px;
-	margin-top:-484px;
-	
 }
+.z1{
+	background-image:url(photo.JPG);
+	width:200px;
+	height:130px;
+	background-size:100%;
+	margin-top:10px;
+}
+.z2{
+	color:#FBF7D5;
+	font-size:70px;
+	text-align:center;
+	margin-top:-130px;
+	margin-left:-300px;
+}
+.z3{
+	color:#FBF7D5;
+	font-size:30px;
+	text-align:center;
+	margin-top:10px;
+	margin-left:-780px;
+}
+table{
+	width:1350px;
+	font-size:30px;
+	color:#FBF7D5;
+	margin-top:80px;
+	border:10px solid #990011FF;
+	border-collapse: collapse;
+}
+th{
+	text-align:left;
+	border:10px solid #990011FF;
+}
+td{
+	border:10px solid #990011FF;
+}
+
+/*Below code belongs to contact.html*/
+
 .r1{
 	color:#FBF7D5;
 	font-size:30px;
@@ -94,9 +136,16 @@ form{
 	color:#FBF7D5;
 	font-size:22px;
 }
-section{
-	width:400px;
+form{
+	width:500px;
+	color:#FBF7D5;
+	margin-left:700px;
+	margin-top:-484px;
+	border:10px solid #990011FF;
+}
+.r3{
+	border:10px solid #990011FF;
+	margin-top:10px;
 	margin-left:250px;
-	margin-top:50px
-
+	width:400px;
 }
