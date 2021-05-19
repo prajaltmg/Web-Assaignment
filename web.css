@@ -15,25 +15,45 @@ nav ul li a{
 }
 
 .g1{
- 
-	font-size:50px; color:#FBF7D5;
+    font-size:50px; color:#FBF7D5;
+     animation:type 3s steps(22);
+    overflow:hidden; white-space:nowrap;
 }
+
 body{
 	
 	background-color:#101820FF;
 
 }
-.g2{ font-size:70px; color:#990011FF; 
+.g2{ font-size:70px; color:red; 
 } 
 .g3{ font-size:70px; color:#FBF7D5;  
 }
-.g4{ font-size:70px; color:#990011FF; 
+.g4{ font-size:70px; color:red; 
 }
 .g5{ font-size:70px; color:#FBF7D5;
+    animation:type 3s steps(22);
+    overflow:hidden; white-space:nowrap;
 }
+	@keyframes type{
+		0%{
+			width:0ch;
+		}
+		100%{
+			width:22ch;
+		}
+	}
 header{
-	margin-top:130px;
-	margin-left:130px;
+	margin-top:120px;
+	margin-left:120px;
+}
+.p5{
+	text-align:right;
+	font-size:470px;
+    margin-top:-600px;
+    margin-left:980px;
+    color:red;
+    transform:rotateY(180deg)
 }
 /*Below code belongs to portfolio.html*/
 
@@ -130,22 +150,24 @@ td{
 .r1{
 	color:#FBF7D5;
 	font-size:30px;
+	padding-left:10px;
 
 }
 .r2{
 	color:#FBF7D5;
 	font-size:22px;
+	padding-left:10px;
 }
 form{
 	width:500px;
 	color:#FBF7D5;
 	margin-left:700px;
-	margin-top:-484px;
-	border:10px solid #990011FF;
+	margin-top:-474px;
+	border:5px solid #990011FF;
 }
 .r3{
-	border:10px solid #990011FF;
-	margin-top:10px;
+	border:5px solid #990011FF;
+	margin-top:30px;
 	margin-left:250px;
 	width:400px;
 }
