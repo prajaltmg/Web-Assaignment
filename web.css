@@ -1,5 +1,5 @@
 nav{ padding-bottom: 50px; margin-top:-10px; width:1370px; 
-	margin-left:-8px; background-color:#990011FF;
+	margin-left:-8px; background-color:#990011FF; 
 }
 nav ul{margin-top:-55px;}
 nav ul li{
@@ -16,7 +16,7 @@ nav ul li a{
 
 .g1{
     font-size:50px; color:#FBF7D5;
-     animation:type 3s steps(22);
+    animation:type 3s steps(22);
     overflow:hidden; white-space:nowrap;
 }
 
@@ -58,93 +58,77 @@ header{
 /*Below code belongs to portfolio.html*/
 
 .j1{
-	background-image: url(sun.JPG);
+	background-image:url(sun.JPG);
 	background-size:100%;
-	width:350px;
-	height:250px;
+	width:315px;
+	height:245px;
+	border:5px solid #990011FF;
 }
 .j2{
-	background-image: url(scene.JPG);
+	background-image:url(set.JPG);
 	background-size:100%;
-	width:350px;
-	height:250px;
-}
-.j3{
-	text-align:center;
-	font-size:20px;
-	color:#FBF7D5;
-	background-size: 122%;
-	width:350px;
-	height:250px;
+	width:315px;
+	height:245px;
+	border:5px solid #990011FF;
 }
 .j4{
-    background-image: url(itachi.JPG);
+    background-image:url(itachi.JPG);
 	background-size:100%;
-	width:350px;
-	height:250px;
+	width:315px;
+	height:245px;
+	border:5px solid #990011FF;
 }
 .j5{
-	background-image: url(ghost.JPG);
+	background-image:url(ghost.JPG);
 	background-size:100%;
-	width:350px;
-	height:250px;
+    width:315px;
+	height:245px;
+	border:5px solid #990011FF;
 }
 .j6{
 	text-align:center;
 	font-size:20px;
 	color:#FBF7D5;
 	background-size:100%;
-	width:350px;
-	height:250px;
+	width:315px;
+	height:245px;
+	border:5px solid #990011FF;
 }
 .j7{
-	float:right;
-	display:flex;
+	grid-template-columns: auto auto auto auto;
+	display:grid;
 	flex-wrap: wrap;
-	margin-left:100px;
+	grid-column-gap:10px;
+	grid-row-gap:10px;
+	float:left;
 }
-
 /*Below code belongs to cv.html*/
-u{
-	color:#FBF7D5;
+.i1{
+	grid-area:myArea;
 }
-.z1{
-	background-image:url(photo.JPG);
-	width:200px;
-	height:130px;
+.container{
+	display:grid;
+	grid-template-areas:'myArea myArea myArea';
+	grid-template-rows: 225px 275px;
+    grid-gap:10px;
+    background-color:#101820FF;
+    height:100%;
+    width:101%;
+    margin-left:-8px;
+}
+.container > div{
+	background-color:#101820FF;
+	padding:20px 5px;
+	font-size:30px;
+	color:#FBF7D5;
+	border:10px solid #990011FF;
+}
+.photo{
+	background-image:url(photo.jpg);
 	background-size:100%;
-	margin-top:10px;
+	height:130px;
+	width:200px;
 }
-.z2{
-	color:#FBF7D5;
-	font-size:70px;
-	text-align:center;
-	margin-top:-130px;
-	margin-left:-300px;
-}
-.z3{
-	color:#FBF7D5;
-	font-size:30px;
-	text-align:center;
-	margin-top:10px;
-	margin-left:-780px;
-}
-table{
-	width:1350px;
-	font-size:30px;
-	color:#FBF7D5;
-	margin-top:80px;
-	border:10px solid #990011FF;
-	border-collapse: collapse;
-}
-th{
-	text-align:left;
-	border:10px solid #990011FF;
-}
-td{
-	border:10px solid #990011FF;
-}
-
 /*Below code belongs to contact.html*/
 
 .r1{
@@ -159,15 +143,27 @@ td{
 	padding-left:10px;
 }
 form{
-	width:500px;
+	width:650px;
 	color:#FBF7D5;
-	margin-left:700px;
-	margin-top:-474px;
-	border:5px solid #990011FF;
+	padding:10px;
+	border:10px solid #990011FF;
 }
-.r3{
-	border:5px solid #990011FF;
-	margin-top:30px;
-	margin-left:250px;
-	width:400px;
+.section{
+	border:10px solid #990011FF;
+	width:650px;
+}
+.grid{
+	display:grid;
+	grid-template-columns:auto auto;
+	grid-template-rows:500px;
+    grid-gap:10px;
+    background-color:#101820FF;
+    height:100%;
+    width:100%;
+    justify-content:center;
+}
+@media screen and(max-width:500px){
+	body{
+		background:red;
+	}
 }
