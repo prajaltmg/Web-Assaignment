@@ -1,5 +1,5 @@
-nav{ padding-bottom: 50px; margin-top:-10px; width:1370px; 
-	margin-left:-8px; background-color:#990011FF; 
+nav{ margin-top:-10px; width:1370px; 
+	margin-left:-8px; background-color:#990011FF; position:fixed;
 }
 nav ul{margin-top:-55px;}
 nav ul li{
@@ -23,14 +23,12 @@ nav ul li a{           /* -> <code for menu buttom>*/
 body{               
 	
 	background-color:#101820FF;
-
-/*Below css belongs to home.html*/
 }
+/*Below css belongs to home.html*/
+
 .g2{ font-size:70px; color:red;      /*-> code for adjusting containt*/     
 } 
 .g3{ font-size:70px; color:#FBF7D5;          
-}
-.g4{ font-size:70px; color:red; 
 }
 .g5{ font-size:70px; color:#FBF7D5;
     animation:type 3s steps(22);
@@ -45,8 +43,9 @@ body{
 		}
 	}
 header{
-	margin-top:120px;
+	margin-top:7px;
 	margin-left:120px;
+	padding-top:200px;
 }
 
 /*Below code belongs to portfolio.html*/
@@ -95,6 +94,7 @@ header{
 	grid-column-gap:10px;
 	grid-row-gap:10px;
 	float:left;
+	padding-top:75px;
 }
 /*Below code belongs to cv.html*/
 .i1{
@@ -109,13 +109,14 @@ header{
     height:100%;
     width:101%;
     margin-left:-8px;
+    padding-top:70px;
 }
 .container > div{
 	background-color:#101820FF;
-	padding:20px 5px;
 	font-size:30px;
 	color:#FBF7D5;
 	border:10px solid #990011FF;
+    padding:5px;
 }
 .photo{
 	background-image:url(photo.jpg);      
@@ -155,14 +156,91 @@ form{
     height:100%;
     width:100%;
     justify-content:center;
+    padding-top:70px;
 }
  /*Below code belongs to report.html*/
  .paragraph{
  	color:#FBF7D5;
- 	font-size:25px;
+ 	font-size:20px;
+ 	width:101%;
+ 	display:grid;
+ 	grid-gap:10px;
+ 	padding-top:70px;
+ 	margin-left:-8px;
  }
-@media screen and(max-width:500px){            /*->code for responsive view*/
-	body{
-		background:red;
-	}
+ .learning{
+ 	border:10px solid #990011FF;
+ 	padding:5px;
+ }
+ .website{
+ 	border:10px solid #990011FF;
+ 	padding:5px;
+ }
+ .progress{
+ 	border:10px solid #990011FF;
+ 	padding:5px;
+ 	font-size:30px;
 }
+ .image1{
+ 	background-image:url(cv2.png);    
+	background-size:100%;
+	width:643px;
+	height:270px;
+	border:5px solid #990011FF;
+ }
+ .image2{
+ 	background-image:url(cv1.png);    
+	background-size:100%;
+	width:643px;
+	height:270px;
+	border:5px solid #990011FF;
+ }
+ .image3{
+ 	background-image:url(report1.png);    
+	background-size:100%;
+	width:643px;
+	height:270px;
+	border:5px solid #990011FF;
+ }
+ .image4{
+ 	background-image:url(report2.png);    
+	background-size:100%;
+	width:643px;
+	height:270px;
+	border:5px solid #990011FF;
+ }
+ .image{
+ 	grid-template-columns: auto auto;
+	display:grid;
+	flex-wrap: wrap;
+	grid-column-gap:10px;
+	grid-row-gap:10px;
+	float:left;
+
+ }
+@media screen and (max-width:500px){           /*->code for responsive view*/
+	header{
+		margin-left:0px;
+		margin-top:10px;
+	}
+	.g2{font-size:30px;           /*-> code for adjusting containt*/     
+    } 
+    .g3{font-size:30px;        
+    }
+    .g5{font-size:30px; 
+    }
+ /*below code are for portofolio responsive view*/
+
+    .j7{
+    	display:grid;
+    	grid-template-columns:none;
+    }
+ /*below code are for cv responsive view*/
+    .container > div{
+    font-size: 18px;
+    }
+    .container {
+    grid-template-areas: 'myArea';
+    grid-template-rows: 179px 161px;
+    }
+} 
