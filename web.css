@@ -1,9 +1,10 @@
-nav{ margin-top:-10px; width:1370px; 
+nav{ margin-top:-8px; width:1370px; 
 	margin-left:-8px; background-color:#990011FF; position:fixed;
 }
-nav ul{margin-top:-55px;}
+nav ul{margin-top:-70px; float:right;}
 nav ul li{
-	list-style:none; float:right;margin:0.5%; padding:1%;   
+	list-style:none; display:inline-block; margin-right:19px;
+    margin-top:22px; 
 }
 nav ul li a{           /* -> <code for menu buttom>*/
 	color:black;
@@ -18,11 +19,15 @@ nav ul li a{           /* -> <code for menu buttom>*/
     font-size:50px; color:#FBF7D5; 
     animation:type 3s steps(22);
     overflow:hidden; white-space:nowrap;
+    margin-top:-13px;
 }
 
 body{               
 	
 	background-color:#101820FF;
+}
+.hamburger-menu input[type="checkbox"]{
+	opacity:0;
 }
 /*Below css belongs to home.html*/
 
@@ -95,6 +100,7 @@ header{
 	grid-row-gap:10px;
 	float:left;
 	padding-top:75px;
+	width:100%;
 }
 /*Below code belongs to cv.html*/
 .i1{
@@ -171,15 +177,18 @@ form{
  .learning{
  	border:10px solid #990011FF;
  	padding:5px;
+ 	width:98%;
  }
  .website{
  	border:10px solid #990011FF;
  	padding:5px;
+ 	width:98%;
  }
  .progress{
  	border:10px solid #990011FF;
  	padding:5px;
  	font-size:30px;
+ 	width:98%;
 }
  .image1{
  	background-image:url(cv2.png);    
@@ -232,7 +241,6 @@ form{
  /*below code are for portofolio responsive view*/
 
     .j7{
-    	display:grid;
     	grid-template-columns:none;
     }
  /*below code are for cv responsive view*/
@@ -243,4 +251,77 @@ form{
     grid-template-areas: 'myArea';
     grid-template-rows: 179px 161px;
     }
+
+/*below code are for form.html responsive view*/
+ body{
+  	font-family:arial;
+}
+li{
+	list-style:none; 
+}
+.hamburger-menu{
+	position:relative;
+}
+.hamburger-menu input[type="checkbox"]{
+	display:block;
+	position:relative;
+    margin-left:-3px;
+	width:40px;
+	height:32px;
+	z-index:8;
+	opacity:0;
+}
+.menu-items{
+	transform:translateX(-110%);
+	transition:transform 0.5s ease-in-out;
+	padding-left:18px;
+	background:#965252;
+	color:white;
+	margin-top:-50px;
+	margin-left:-15px;
+	position:fixed;
+	width:415px;
+
+}
+.menu-items li{
+	margin-bottom:2rem;
+	font-size:1.5rem;
+}
+.hamburgers-lines{
+	width:40px; 
+	height:32px;
+	position:relative;
+	margin-top:-34px;
+	z-index:7;
+	display: flex;
+	flex-direction:column;
+	justify-content:space-between;
 } 
+.hamburgers-lines .line{
+	display:block;
+	height:4px;
+	width:100%;
+	background-color:#03f8ff;
+	border-radius:10px;
+}
+.hamburger-menu input[type="checkbox"]:checked ~ .menu-items{
+	display:block;
+	transform:translateX(0%);
+	flex:none;
+}
+.hamburger-menu input[type="checkbox"]:checked ~ .hamburgers-lines .line{
+	background:white;
+}
+.g1{
+	margin-top:-3px;
+}
+nav{
+	width:422px; 
+}
+nav ul{
+	float:none;
+}
+nav ul li{
+	display:grid;
+}
+}
