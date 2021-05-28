@@ -99,7 +99,7 @@ header{
 	grid-column-gap:10px;
 	grid-row-gap:10px;
 	float:left;
-	padding-top:75px;
+	padding-top:70px;
 	width:100%;
 }
 /*Below code belongs to cv.html*/
@@ -165,6 +165,7 @@ form{
     padding-top:70px;
 }
  /*Below code belongs to report.html*/
+
  .paragraph{
  	color:#FBF7D5;
  	font-size:20px;
@@ -227,7 +228,73 @@ form{
 	float:left;
 
  }
-@media screen and (max-width:500px){           /*->code for responsive view*/
+ .heading{
+ 	font-size:30px;
+ 	padding-bottom:10px;
+ }
+ .date{
+ 	float:right;
+ 	font-size:30px;
+ }
+ .validate1{
+ 	background-image:url(validate1.png);
+ 	background-size:100%;
+	width:643px;
+	height:520px;
+	border:5px solid #990011FF;
+ }
+  .validate2{
+ 	background-image:url(validate2.png);
+ 	background-size:100%;
+	width:643px;
+	height:520px;
+	border:5px solid #990011FF;
+ }
+  .validate3{
+ 	background-image:url(validate3.png);
+ 	background-size:100%;
+	width:643px;
+	height:520px;
+	border:5px solid #990011FF;
+ }
+  .validate4{
+ 	background-image:url(validate4.png);
+ 	background-size:100%;
+	width:643px;
+	height:520px;
+	border:5px solid #990011FF;
+ }
+  .validate5{
+ 	background-image:url(validate5.png);
+ 	background-size:100%;
+	width:643px;
+	height:520px;
+	border:5px solid #990011FF;
+ }
+  .validate6{
+ 	background-image:url(validate6.png);
+ 	background-size:100%;
+	width:643px;
+	height:520px;
+	border:5px solid #990011FF;
+ }
+ .validator{
+ 	grid-template-columns: auto auto;
+	display:grid;
+	flex-wrap: wrap;
+	grid-column-gap:10px;
+	grid-row-gap:10px;
+	float:left;
+}
+.validate{
+ 	border:10px solid #990011FF;
+ 	padding:5px;
+ 	font-size:30px;
+ 	width:98%;
+}
+
+/*below code are for responsive view*/
+@media screen and (max-width:500px){           
 	header{
 		margin-left:0px;
 		margin-top:10px;
@@ -242,7 +309,33 @@ form{
 
     .j7{
     	grid-template-columns:none;
+    	padding-top:93px;
     }
+    .j1{
+    	width:348px;
+        height:260px;
+    }
+    .j2{
+    	width: 348px;
+        height: 260px;
+    }
+    .j3{
+    	width: 348px;
+        height: 260px;
+    }
+    .j4{
+    	width: 348px;
+        height: 260px;
+    }
+    .j5{
+    	width: 348px;
+        height: 260px;
+    }
+    .j6{
+    	width: 348px;
+        height: 260px;
+    }
+
  /*below code are for cv responsive view*/
     .container > div{
     font-size: 18px;
@@ -250,9 +343,94 @@ form{
     .container {
     grid-template-areas: 'myArea';
     grid-template-rows: 179px 161px;
+    padding-top:92px;
     }
 
 /*below code are for form.html responsive view*/
+ .grid{
+ 	grid-template-columns:none;
+ 	grid-column:none;
+ 	padding-top:91px;
+ 	justify-content:normal;
+ }
+ .section{
+ 	width:323px;
+ 	height:403px;
+}
+form{
+	width:303px;
+	margin-top:-80px;
+}
+.r1{
+	font-size:20px;
+}
+.r2{
+	font-size:15px;
+}
+
+/*below code are for form.html responsive view*/
+.paragraph{
+	padding-top:92px;
+}
+.learning{
+	width:321px;
+}
+.website{
+	width:321px;
+}
+.progress{
+	width:321px;
+}
+.image{
+	grid-template-columns:none;
+}
+.image1{
+	width: 313px;
+    height: 137px;
+}
+.image2{
+	width: 313px;
+    height: 137px;
+}
+.image3{
+	width: 313px;
+    height: 137px;
+}
+.image4{
+	width: 313px;
+    height: 137px;
+}
+.validate{
+	width:321px;
+}
+.validate1{
+	width:312px;
+    height:234px;
+}
+.validate2{
+	width:312px;
+    height:234px;
+}
+.validate3{
+	width:312px;
+    height:234px;
+}
+.validate4{
+	width:312px;
+    height:234px;
+}
+.validate5{
+	width:312px;
+    height:234px;
+}
+.validate6{
+	width:312px;
+    height:234px;
+}
+.validator{
+	grid-template-columns:none;
+}
+/*below code are for hamburger buttom view*/
  body{
   	font-family:arial;
 }
@@ -275,7 +453,7 @@ li{
 	transform:translateX(-110%);
 	transition:transform 0.5s ease-in-out;
 	padding-left:18px;
-	background:#965252;
+	background:#990011;
 	color:white;
 	margin-top:-50px;
 	margin-left:-15px;
@@ -323,5 +501,8 @@ nav ul{
 }
 nav ul li{
 	display:grid;
+}
+nav ul li a{
+	width:353px;
 }
 }
