@@ -237,47 +237,53 @@ form{
  	font-size:30px;
  }
  .validate1{
- 	background-image:url(validate1.png);
+ 	background-image:url(validate1.png); /*(Faulkner, n.d.)*/
  	background-size:100%;
 	width:643px;
 	height:520px;
 	border:5px solid #990011FF;
  }
   .validate2{
- 	background-image:url(validate2.png);
+ 	background-image:url(validate2.png); /*(Faulkner, n.d.)*/
  	background-size:100%;
 	width:643px;
 	height:520px;
 	border:5px solid #990011FF;
  }
   .validate3{
- 	background-image:url(validate3.png);
+ 	background-image:url(validate3.png); /*(Faulkner, n.d.)*/
  	background-size:100%;
 	width:643px;
 	height:520px;
 	border:5px solid #990011FF;
  }
   .validate4{
- 	background-image:url(validate4.png);
+ 	background-image:url(validate4.png); /*(Faulkner, n.d.)*/
  	background-size:100%;
 	width:643px;
 	height:520px;
 	border:5px solid #990011FF;
  }
   .validate5{
- 	background-image:url(validate5.png);
+ 	background-image:url(validate5.png);/*(Faulkner, n.d.)*/
  	background-size:100%;
 	width:643px;
 	height:520px;
 	border:5px solid #990011FF;
  }
   .validate6{
- 	background-image:url(validate6.png);
+ 	background-image:url(validate6.png); /*(Faulkner, n.d.)*/
  	background-size:100%;
 	width:643px;
 	height:520px;
 	border:5px solid #990011FF;
  }
+/* References
+Faulkner, S., n.d. Nu Html Checker. [Online] 
+Available at: https://validator.w3.org/nu/#textarea
+[Accessed 28 05 2021].
+*/
+
  .validator{
  	grid-template-columns: auto auto;
 	display:grid;
